@@ -21,14 +21,14 @@ A closed-form analytical formula for European options assuming constant volatili
 - Greeks (Delta, Gamma, Vega, Theta, Rho)
 
 **Pros**:
-✅ Fast, closed-form solution  
-✅ Widely used and well-understood  
-✅ Greeks easily computed analytically  
+- ✅ Fast, closed-form solution  
+- ✅ Widely used and well-understood  
+- ✅ Greeks easily computed analytically  
 
 **Cons**:
-⚠️ Only valid for European options  
-⚠️ Assumes constant volatility  
-⚠️ Doesn't model early exercise or dividends directly  
+- ⚠️ Only valid for European options  
+- ⚠️ Assumes constant volatility  
+- ⚠️ Doesn't model early exercise or dividends directly  
 
 ---
 
@@ -42,13 +42,13 @@ A discrete-time tree model that approximates option prices by modeling the under
 - Early exercise feature for American options
 
 **Pros**:
-✅ Handles American-style early exercise  
-✅ Intuitive tree structure  
-✅ Converges to Black-Scholes as steps increase  
+- ✅ Handles American-style early exercise  
+- ✅ Intuitive tree structure  
+- ✅ Converges to Black-Scholes as steps increase  
 
 **Cons**:
-⚠️ Slower than closed-form solutions  
-⚠️ Requires choosing number of steps (trade-off between accuracy and speed)  
+- ⚠️ Slower than closed-form solutions  
+- ⚠️ Requires choosing number of steps (trade-off between accuracy and speed)  
 
 ---
 
@@ -62,14 +62,14 @@ Uses random sampling of asset price paths under risk-neutral measure to estimate
 - Simulates many random paths
 
 **Pros**:
-✅ Flexible and intuitive  
-✅ Easily extended to exotic options  
-✅ Handles complex payoffs  
+- ✅ Flexible and intuitive  
+- ✅ Easily extended to exotic options  
+- ✅ Handles complex payoffs  
 
 **Cons**:
-⚠️ Computationally intensive  
-⚠️ Requires many simulations for accuracy  
-⚠️ Not well-suited for American options without complex modifications  
+- ⚠️ Computationally intensive  
+- ⚠️ Requires many simulations for accuracy  
+- ⚠️ Not well-suited for American options without complex modifications  
 
 ---
 
