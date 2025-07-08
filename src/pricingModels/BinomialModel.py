@@ -1,6 +1,7 @@
+from pricingModels.BaseModel import OptionPricingModel
 import numpy as np
 
-class BinomialModel:
+class BinomialModel(OptionPricingModel):
     """
     Cox-Ross-Rubinstein Binomial Tree Model for European and American Option Pricing.
     """

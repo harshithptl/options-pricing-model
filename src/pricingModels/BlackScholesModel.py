@@ -1,7 +1,8 @@
+from pricingModels.BaseModel import OptionPricingModel
 import numpy as np
 from scipy.stats import norm
 
-class BlackScholesModel:
+class BlackScholesModel(OptionPricingModel):
     """
     Black-Scholes model for European option pricing.
     """
